@@ -1,0 +1,11 @@
+{
+    "model": "Sequential",
+    "layers": [
+        {
+            "L1": "Conv2D(filters = 8, kernel_size=(3,3), strides=(1, 1), padding='valid', data_format='channels_last', activation='relu', use_bias=True, kernel_initializer='constant', bias_initializer='ones', kernel_regularizer=regularizers.l2(0.), bias_regularizer=regularizers.l2(0.), activity_regularizer=regularizers.l1(0.), kernel_constraint=max_norm(2.), bias_constraint=max_norm(2.), input_shape=(28,28,1))",
+            "L2": "Conv2D(filters = 8, kernel_size=(3,3), strides=(1, 1), padding='valid', data_format='channels_last', activation='relu', use_bias=True, kernel_initializer='constant', bias_initializer='ones', kernel_regularizer=regularizers.l2(0.), bias_regularizer=regularizers.l2(0.), activity_regularizer=regularizers.l1(0.), kernel_constraint=max_norm(2.), bias_constraint=max_norm(2.))",
+            "L3": "Flatten()",
+            "L4": "Dense(10, activation='softmax', use_bias=True, kernel_initializer='constant', bias_initializer='ones', kernel_regularizer=regularizers.l2(0.), bias_regularizer=regularizers.l2(0.), activity_regularizer=regularizers.l1(0.), kernel_constraint=max_norm(2.), bias_constraint=max_norm(2.))"
+        }
+    ]
+}
